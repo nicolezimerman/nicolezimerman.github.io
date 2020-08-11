@@ -1,0 +1,42 @@
+h1{
+    font-size: 40px;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    text-align: center;  
+    font-family: monospace;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.foto img{
+    width: 150px;
+}
+
+.presentacion{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.caracteristicas{
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer img{
+    width: 20px;
+}
+
+.icon img{
+    width: 50px;
+}
+
