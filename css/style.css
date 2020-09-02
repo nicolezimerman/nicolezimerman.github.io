@@ -83,6 +83,9 @@ h2{
     flex-wrap: wrap;
 }
 
+.proyecto{
+    width: 300px;
+}
 .proyecto img{
     width: 300px;
     -webkit-box-shadow: 5px 5px 5px 0px rgba(82,82,82,1);
