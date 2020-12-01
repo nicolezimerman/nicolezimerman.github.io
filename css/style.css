@@ -38,6 +38,10 @@ h2{
     padding-bottom: 20px;
 }
 
+.description{
+    margin-bottom: 50px;
+}
+
 .caracteristicas{
     width: 80%;
     margin: auto;
@@ -46,13 +50,26 @@ h2{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
-    word-wrap: break-word:
+    word-wrap: break-word;
+}
+@media (max-width: 600px) {
+    .caracteristicas {
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 .caracteristicas div{
     width: 120px;
+    margin-bottom: 10px;
 }
+
+.caracteristica .img{
+    margin-bottom: 15px;
+}
+
 
 
 .icon img{
@@ -61,8 +78,8 @@ h2{
 
 
 .secundario{
-    padding: 20px 10%;
-    margin: auto;
+    width: 80%;
+    padding: 5% 10%;
     background-color: var(--color-secundario);
     color: var(--color-primario);
 }
@@ -79,23 +96,31 @@ h2{
 .proyectos{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
 
 .proyecto{
     width: 300px;
-}
-.proyecto img{
-    width: 300px;
+    margin: 20px auto;
+    background-color: white;
     -webkit-box-shadow: 5px 5px 5px 0px rgba(82,82,82,1);
     -moz-box-shadow: 5px 5px 5px 0px rgba(82,82,82,1);
     box-shadow: 5px 5px 5px 0px rgba(82,82,82,1);
     border-radius: 5px;
     transition: 0.3s;
+    overflow: hidden;
+
+}
+.proyecto img{
+    width: 300px;
+    
+}
+.proyecto h3{
+    color: var(--color-secundario);
 }
 
-.proyecto img:hover {
+.proyecto:hover {
     box-shadow:
     1px 1px #53a7ea,
     2px 2px #53a7ea,
